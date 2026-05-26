@@ -38,11 +38,11 @@
             "id": "01d758b3-fca3-4d6d-a3df-b85d8df0481a",
             "source": {
               "x": 660,
-              "y": -160
+              "y": -120
             },
             "target": {
               "x": 660,
-              "y": 390
+              "y": 430
             },
             "vertices": []
           },
@@ -547,7 +547,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Logowanie",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -561,7 +561,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Logowanie"
             ],
             "id": "8fa0ba43-3c74-412f-846a-a4599053a054",
             "source": {
