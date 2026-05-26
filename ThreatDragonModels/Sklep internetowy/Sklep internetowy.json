@@ -18,6 +18,35 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "01d758b3-fca3-4d6d-a3df-b85d8df0481a",
+            "source": {
+              "x": 660,
+              "y": -160
+            },
+            "target": {
+              "x": 660,
+              "y": 390
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 480,
               "y": 130
@@ -565,7 +594,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "API do backened",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -579,7 +608,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "API do backened"
             ],
             "id": "351b13a0-c6a7-4766-878d-a9aca421ad4d",
             "source": {
@@ -590,7 +619,17 @@
               "cell": "8b658183-8fc8-4b2c-b4c1-6466b720e21e",
               "port": "aa048ca2-707b-4ae6-9efa-51a8c4111f0b"
             },
-            "vertices": []
+            "vertices": [],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
