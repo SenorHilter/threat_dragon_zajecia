@@ -96,6 +96,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -179,7 +180,6 @@
               ]
             },
             "id": "83c97bf1-51a4-4343-899e-959f8688529b",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Użytkownik",
@@ -244,6 +244,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -327,7 +328,6 @@
               ]
             },
             "id": "02f68556-95e0-4722-87d0-c6e3d32f07be",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Aplikacja fronten",
@@ -425,6 +425,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -521,8 +522,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -550,6 +550,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -633,7 +634,6 @@
               ]
             },
             "id": "c1bf1e68-87bb-4399-b6c6-0dc85e1a2549",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Baza danych użytkownika",
@@ -1078,7 +1078,6 @@
               "cell": "39dc239d-c022-4c00-a18f-7b3ecdab27a8",
               "port": "aa048ca2-707b-4ae6-9efa-51a8c4111f0b"
             },
-            "vertices": [],
             "tools": {
               "items": [
                 "boundary",
@@ -1093,7 +1092,8 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1304,6 +1304,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1387,7 +1388,6 @@
               ]
             },
             "id": "aa0c9d53-29e2-4d0e-bad3-92dff4278b02",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Przeglądarka",
@@ -1421,6 +1421,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1504,7 +1505,6 @@
               ]
             },
             "id": "bbf6d168-1fe9-42ed-b979-73d74e635f06",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Frontened",
@@ -1541,6 +1541,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1624,7 +1625,6 @@
               ]
             },
             "id": "39dc239d-c022-4c00-a18f-7b3ecdab27a8",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Backened",
@@ -1664,6 +1664,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1747,7 +1748,6 @@
               ]
             },
             "id": "f11bb94d-c124-4d0f-bca6-f28b902d464e",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Baza danych",
